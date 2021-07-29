@@ -3,16 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MMiallaComponent } from './mmialla/mmialla.component';
-
+import { ServerComponent } from './server/server.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MMiallaComponent
+ServerComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
